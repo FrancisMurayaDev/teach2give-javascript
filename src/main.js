@@ -26,3 +26,16 @@ console.log(Name) // Joe
 let fisrtName = "Smith"
 let secondName = "Doe"
 let totalScore = 18;
+
+let firstName = "Francis";
+let lastName = "Muraya";
+
+let age = 16; //Integer
+let price = 45.67; //Decial
+let notANumber = NaN;
+
+let onTime = true;
+let inTime = false;
+
+let state;
+console.log(state) // output will be undefined.
