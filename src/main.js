@@ -1,24 +1,28 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+//Variables declaration
+let firstName = "Francis";
+var age = 18;
+const price = 500;
+ 
+firstName = "John";
+age = "65";
+price = 600; //This will result to an error.
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+let lastName; //declared but not defined.
+console.log(lastName); //The output will be undefined.
 
-setupCounter(document.querySelector('#counter'))
+let year = 2019 //declared and initialized with a value.
+console.log(year); // output will be 2019.
+
+//naming variables 
+let age = 16;
+let _name = "Francis";
+let $score = 10;
+
+let name = 'John';
+let Name = 'Joe';
+console.log(name) // John
+console.log(Name) // Joe
+
+let fisrtName = "Smith"
+let secondName = "Doe"
+let totalScore = 18;
