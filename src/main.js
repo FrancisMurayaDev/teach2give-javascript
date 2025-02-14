@@ -39,3 +39,15 @@ let inTime = false;
 
 let state;
 console.log(state) // output will be undefined.
+
+
+let age = null; //no age
+
+
+let age = 25;
+let firstName = "Jane";
+let bigNumber = 987589798784832934898348792;
+
+console.log(age); //number
+console.log(firstName); // string
+console.log(bigNumber); //bigInt
