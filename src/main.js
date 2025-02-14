@@ -221,6 +221,21 @@ let lastName = "Muraya";
 console.log(`My name is ${firstName} ${lastName}`);
 
 
+//Type Coersion and Type Conversion
+
+console.log(7 + "7"); // "77" (Number coerced into a string)
+console.log("7" - 2); // 5 (String coerced into a number)
+console.log(true + 1); // 2 (true coerced into 1)
+console.log(false + "10"); // "false10" (false coerced into string)
+
+console.log(String(382));
+console.log((382).toString());
+
+console.log(Number("789"));
+console.log(parseInt("789"));
+console.log(parseFloat("789"));
+console.log(parseInt("15px"));
+
 
 
 
