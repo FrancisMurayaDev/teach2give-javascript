@@ -51,3 +51,27 @@ let bigNumber = 987589798784832934898348792;
 console.log(age); //number
 console.log(firstName); // string
 console.log(bigNumber); //bigInt
+
+
+let x = 34;
+let y = 26;
+console.log(x + y); // 60
+
+let firstName = "Joe";
+let lastName = "Smith";
+console.log(firstName + lastName); // JoeSmith
+
+
+let x = 10;
+console.log(x++); // 10 (returns first, then increments)
+console.log(x); // 11
+
+let y = 10;
+console.log(++y); // 11 (increments first, then returns)
+
+let x = 10;
+console.log(x--); // 10 (returns first, then increments)
+console.log(x); // 9
+
+let y = 10;
+console.log(--y); // 9 (increments first, then returns)
