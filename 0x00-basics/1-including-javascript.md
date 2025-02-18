@@ -1,5 +1,7 @@
 # Including JavaScript to HTML
+
 ## There are 3 ways to include Javascript in a HTML file
+
 - Internal JavaScript
 <p>JavaScript is written inside a script tag within the html file. The script is placed before the closing tag of the HTML body tag.</p>
 
@@ -17,7 +19,7 @@
   </script>
 </head>
 <body>
-  
+
 </body>
 </html>
 ```
@@ -44,7 +46,7 @@
 </html>
 ```
 
-- Inline JavaScript 
+- Inline JavaScript
 <p>JavaScript code is embedded directly inside HTML elemets using even attributes such as onclick, onmouseover, e.t.c.</p>
 
 ```
@@ -61,14 +63,13 @@
   alert('Give Your best, you got this!');
   ">Click Me</button>
 
-  
+
 </head>
 <body>
-  
+
 </body>
 </html>
 ```
-
 
 <p>Basically, it is a good practice to put the script tag before the body closing tag to optimize script loading.  </p>
 
@@ -79,6 +80,7 @@
 ```
 <script src="main.js" defer></script>
 ```
+
 2. Use async keyword - Loads scripts asynchronously and runs them as soon as they are downloaded. However, it may execute JavaScript out of order.
 
 ```

@@ -1,5 +1,7 @@
-# String Concantination 
+# String Concantination
+
 String concatenation is the process of joining two or more strings together.
+
 ### Ways of Concantinating Strings.
 
 #### 1. Using the (+) Operator.
@@ -28,7 +30,3 @@ let firstName = "Francis";
 let lastName = "Muraya";
 console.log(`My name is ${firstName} ${lastName}`);
 ```
-
-
-
-

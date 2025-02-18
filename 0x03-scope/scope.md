@@ -25,7 +25,6 @@ exampleFunction(); // 25
 console.log(age); // accessible outside function too
 ```
 
-
 ### 2. Function Scope
 
 Functions declared within a function are only accesible within that function.
@@ -43,12 +42,11 @@ console.log(age); // ReferenceError: age is not defined
 
 ### 3. Block Scope
 
-Before ES6, JS only had global scope and function scope. 
+Before ES6, JS only had global scope and function scope.
 
 The var keyword did not support scope.
 
 A block is code inside curly brackets {}. Example in if, for, while statements.
-
 
 ```
 if (true) {
@@ -65,7 +63,6 @@ var does not follow block scope.
 ### 4. Lexical Scope
 
 Lexical scope means that a function can access variables from its parent scope. Example: Parent Function.
-
 
 ```
 function parentFunction() {

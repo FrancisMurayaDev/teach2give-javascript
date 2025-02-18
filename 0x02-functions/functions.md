@@ -9,6 +9,7 @@ Functions help write:
 - reusable code
 
 Functions can:
+
 - be assigned to variables.
 - passed as arguments.
 - returned from other functions.
@@ -43,13 +44,11 @@ function printHello () {
 printHello();
 ```
 
-
-### Parameters vs Arguments 
+### Parameters vs Arguments
 
 - Parameter - variable declared in a function defination. It acts as placeholder for the value that will be passed to the function when the function is being called.
 
 - Arguments - actual value passed to a function when called. Provided data that the function or mwthod will operate on.
-
 
 ```
 function greet(name) { // name is a parameter
@@ -59,8 +58,8 @@ function greet(name) { // name is a parameter
 greet("Francis Muraya"); // Francis Muraya is an argument
 ```
 
-
 ### Function Return Values
+
 - using the return keyword.
 
 code:
@@ -77,37 +76,36 @@ console.log(sum);
 ### Categories of Functions
 
 #### Functions that;
- 
 
- - don't take parameter(s) and dont return a value.
+- don't take parameter(s) and dont return a value.
 
- example code:
+example code:
 
- ```
- function add() {
-  let a = 55;
-  let b = 68;
-  console.log(a + b);
+```
+function add() {
+ let a = 55;
+ let b = 68;
+ console.log(a + b);
 }
 
 add();
- ```
+```
 
- - don't take parameter(s) but return a value.
+- don't take parameter(s) but return a value.
 
- Example:
+Example:
 
- ```
- function add() {
-  let a = 55;
-  let b = 68;
-  return a + b;
+```
+function add() {
+ let a = 55;
+ let b = 68;
+ return a + b;
 }
 
 console.log(add());
 ```
 
- - take parameter(s) but dont return a value.
+- take parameter(s) but dont return a value.
 
 Example:
 
@@ -117,53 +115,51 @@ function add(a, b) {
 }
 add(5, 3);
 ```
- - take parameter(s) and return a value.
 
- Example:
+- take parameter(s) and return a value.
 
- ```
- function add(a, b) {
-  return a + b;
+Example:
+
+```
+function add(a, b) {
+ return a + b;
 }
 console.log(add(5, 3));
- ```
+```
 
- ### Types of Functions in JavaScript
+### Types of Functions in JavaScript
 
- - Function declaration
+- Function declaration
 
-
- ```
- function add(a, b) {
-  console.log(a + b);
+```
+function add(a, b) {
+ console.log(a + b);
 }
 
 add(5, 2);
 ```
 
- - Function Expression/anonymous function
+- Function Expression/anonymous function
 
- It is saving a function to a variable.
+It is saving a function to a variable.
 
-
- ```
- let add = function (a, b) {
-  console.log(a + b);
+```
+let add = function (a, b) {
+ console.log(a + b);
 }
 
 add(5, 2);
- ```
+```
 
- - Arrow Functions
+- Arrow Functions
 
- They were introduced in the ES6.
+They were introduced in the ES6.
 
- Simplify how we write functions.
+Simplify how we write functions.
 
-
- ```
- let add = (a, b) => {
-  return a + b;
+```
+let add = (a, b) => {
+ return a + b;
 }
 
 console.log(add(5, 2));
@@ -195,8 +191,7 @@ let square = number => number * number;
 console.log(square(8)); // 64
 ```
 
-
- - Immediately Invoked Function Expression (IIFE)
+- Immediately Invoked Function Expression (IIFE)
 
 They are anonymous and are executed imediately after being defined.
 
@@ -219,7 +214,6 @@ They also take parameters as below:
 })(5, 6);
 ```
 
-
 #### Callback Functions
 
 These are functions passed as arguments to other functions.
@@ -234,5 +228,3 @@ greet("Francis", function () {
   console.log("Welcome back");
 });
 ```
-
-

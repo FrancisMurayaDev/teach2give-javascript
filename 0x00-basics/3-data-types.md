@@ -10,6 +10,7 @@
 let firstName = "Francis";
 let lastName = "Muraya";
 ```
+
 - Number
 <p>In JavaScript there are two types of numbers, integers and decimlas </p>
 
@@ -44,6 +45,7 @@ let age = null; //no age
 let state;
 console.log(state) // output will be undefined.
 ```
+
 - Bigint
 
 <p>BigInt values represent integer values which are too high or too low to be represented by the number primitive.</p>
@@ -52,6 +54,7 @@ console.log(state) // output will be undefined.
 const alsoHuge = BigInt(9007199254740991);
 // 9007199254740991n
 ```
+
 - Symbol
 
 #### Checking the type of a data type we use typeof () method.

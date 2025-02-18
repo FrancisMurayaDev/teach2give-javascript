@@ -27,12 +27,14 @@ console.log(false + "10"); // "false10" (false coerced into string)
 Happens when you manually convert the data type of a value.
 
 ### Methods of Explicit Conversion.
+
 - Convert to string using String() or toString().
 
 ```
 console.log(String(382));
 console.log((382).toString());
 ```
+
 - Convert to number using Number(), parseInt() or parseFloat()
 
 ```
@@ -53,5 +55,3 @@ console.log(Boolean(0)); // false
 console.log(Boolean("hello")); // true
 console.log(Boolean(null)); // false
 ```
-
-
