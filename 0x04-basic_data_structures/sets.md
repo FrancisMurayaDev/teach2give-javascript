@@ -8,7 +8,7 @@ Properties of a Set
 - No indexing
 - No order
 
-#### Creating a Set 
+#### Creating a Set
 
 Use <i>new Set() .
 
@@ -58,7 +58,7 @@ console.log(mySet.has("June")); // false
 ```
 
 4. size
-Return number of elements in a set.
+   Return number of elements in a set.
 
 ```js
 const mySet = new Set(["John", 44, "Doe", true, false]);

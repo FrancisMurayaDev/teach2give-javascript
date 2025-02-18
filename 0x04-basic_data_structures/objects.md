@@ -4,11 +4,11 @@
 
 It is a data-structure that stores values as a collection of key value pairs.
 
-- The key should be a string and the value of any type. 
+- The key should be a string and the value of any type.
 
-- Keys are also referred to as properties. 
+- Keys are also referred to as properties.
 
-- Objects are important data structures in JavaScript. 
+- Objects are important data structures in JavaScript.
 
 - A function inside an object is called a method.
 
@@ -16,7 +16,7 @@ It is a data-structure that stores values as a collection of key value pairs.
 
 1. Using Objects Literal.
 
-It uses curly brackets. 
+It uses curly brackets.
 
 ```js
 const student = {
@@ -65,8 +65,7 @@ const student = new Student("John", "Doe", 25, true);
 
 Always use object literals.
 
-
-### Accessing Object Properties 
+### Accessing Object Properties
 
 1. Dot Notation
 
@@ -109,7 +108,6 @@ console.log(student["lastName"]); // Doe
 console.log(student["age"]); // 25
 console.log(student["isStillStudying"]); // true
 ```
-
 
 ### Modifying Objects.
 
@@ -166,11 +164,10 @@ delete student.age;
 delete student.isStillStudying;
 ```
 
-
 ### Checking Properties in an Object.
 
-- To check whether a certain property is available. 
-- We use: 
+- To check whether a certain property is available.
+- We use:
 
 1. in keyword
 
@@ -225,7 +222,6 @@ const student = {
 
 console.log(Object.keys(student));
 // [ 'firstName', 'lastName', 'age', 'isStillStudying', 'greet' ]
-
 ```
 
 2. Object.values(objectName)
@@ -275,6 +271,7 @@ console.log(Object.entries(student));
 4. Object.freeze(objectName)
 
 Freezes an object.
+
 - prevents new properties from being added to it and existing ones from being removed.
 
 - it prevents an object modification.
@@ -312,6 +309,6 @@ const student = {
 };
 
 for (let key in student) {
-  console.log(key)
+  console.log(key);
 }
 ```

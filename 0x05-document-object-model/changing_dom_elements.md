@@ -2,7 +2,7 @@
 
 - Changing the content, attributes and styling of DOM elements.
 
-### Changing HTML elements content 
+### Changing HTML elements content
 
 #### innerHTML
 
@@ -10,8 +10,8 @@ Gets html content of an element.
 
 ```js
 <div id="my-div">
-    <h1>Hello, world</h1>
-    <p>JavaScript is awesome</p>
+  <h1>Hello, world</h1>
+  <p>JavaScript is awesome</p>
 </div>
 ```
 
@@ -28,8 +28,8 @@ Sets or get the text content of an element not preserving the HTML TAGS.
 
 ```js
 <div id="my-div">
-    <h1>Hello, world</h1>
-    <p>JavaScript is awesome</p>
+  <h1>Hello, world</h1>
+  <p>JavaScript is awesome</p>
 </div>
 ```
 
@@ -46,13 +46,14 @@ Sets or gets the text content of an element and its descendants without preservi
 
 - More consistent across browser compared to <i>innerText </i>
 
-
 ### Changing the attribute of HTML elements.
 
 We use <em> element.attribute = value .</em>
 
 ```js
-<h1 class="title" id="title">Hello, world</h1>
+<h1 class="title" id="title">
+  Hello, world
+</h1>
 ```
 
 ```js

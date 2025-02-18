@@ -18,11 +18,12 @@ console.log(button); // <button id="my-button">Click Me</button>
 ```
 
 #### document.getElementByTagName(name)
- Targets elements that match a tag name.
- You can index the specific element as in indexing in array.
 
- ```js
- <p>Hello, World</p>
+Targets elements that match a tag name.
+You can index the specific element as in indexing in array.
+
+```js
+<p>Hello, World</p>
 <p>JavaScript is awesome</p>
 <p>JavaScript is great</p>
 ```
@@ -34,7 +35,7 @@ console.log(paragraphs); // [p, p, p]
 
 #### document.getElementByClassName(className)
 
-Returns all elements with a similar class. Indexing is used to get specific element. 
+Returns all elements with a similar class. Indexing is used to get specific element.
 
 ```js
 <p class="text">Hello, World</p>
@@ -67,7 +68,7 @@ Selects all elements in the document that match specified class, id or tag name 
 ```
 
 ```js
-const paragraphs = document.querySelectorAll('p');
+const paragraphs = document.querySelectorAll("p");
 console.log(paragraphs); // [p.text, p.text, p]
 ```
 
@@ -81,7 +82,9 @@ console.log(title); // <h1 class="title" id="awesome-title">Hello, world</h1>
 We can also use <em> element.setAttribute ("attribute", "value")</em>
 
 ```js
-<h1 class="title" id="title">Hello, world</h1>
+<h1 class="title" id="title">
+  Hello, world
+</h1>
 ```
 
 ```js
@@ -91,7 +94,7 @@ title.setAttribute("id", "awesome-title");
 console.log(title);
 ```
 
-### Changing the styling of HTML Elements. 
+### Changing the styling of HTML Elements.
 
 We can use <em>element.style.property = "value ."</em>
 
@@ -106,7 +109,7 @@ title.style.borderRadius = "5px";
 
 #### Changing Styling in JavaScript using CSS classes.
 
-- element.classList.add() : adds one or more class names to an element without removing the existing classes. 
+- element.classList.add() : adds one or more class names to an element without removing the existing classes.
 
 - Element.classList.toggle() : toggles the specified class, it is present, it is removed, if it is absent, it is added.
 

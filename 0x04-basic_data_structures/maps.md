@@ -8,7 +8,7 @@
 use <i>new Map()</i>
 
 ```js
-const myMap = new Map()
+const myMap = new Map();
 ```
 
 ### Map Methods
@@ -69,7 +69,7 @@ console.log(myMap.has("middlename")); // false
 ```
 
 4. delete(key)
-Removes a specified key-value pair from the map.
+   Removes a specified key-value pair from the map.
 
 ```js
 const myMap = new Map();
@@ -82,6 +82,7 @@ myMap.set({ username: "the_user" }, "object");
 myMap.delete("firstName");
 myMap.delete(1);
 ```
+
 5. clear()
 
 Removes all the key-value pairs from a map.
@@ -98,6 +99,7 @@ myMap.clear();
 
 console.log(myMap); // Map(0) {}
 ```
+
 6. Size
 
 Returns the number of key-value pairs in a map.
