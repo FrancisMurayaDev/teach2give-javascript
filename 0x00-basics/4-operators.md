@@ -103,6 +103,54 @@ let y = 10;
 console.log(--y); // 9 (increments first, then returns)
 ```
 
+### Order of Operations in JS (Operator Precedence)
+
+- `Brackets` () have the highest priority.
+- Followed by `*` and `/`.
+- Then `+` and `-`.
+
+In programming:
+
+- Whole numbers like 1,5,8 are called Integers.
+
+- Numbers like 2.3, 5.6 are called floats. Calculations with floats are sometimes inaccurate.
+
+Sometimes computers have a problem when working with floats. 
+
+For example:
+
+```js
+0.1 + 0.2
+// 0.30000000004
+```
+
+- In situations where we are calculating currencies, to avoid inaccuracy, do maths in cents.
+
+Example:
+`20.95 + 7.99` will be:
+
+`(2095 + 799)/100` //28.94
+
+### Rounding a Number
+
+- `Math.round()` - put the number inside the bracket.
+
+- `Math.floor()` - rounds a number down.
+
+- `Math.ceil()` - rounds a number up.
+
+```js
+Math.round(2.3) //2.0
+
+Math.round(2.5) //3.0
+
+Math.floor(4.7) //4.0
+
+Math.ceil(5.2) //6.0
+```
+
+
+
 - ### Assignment operators
 <p>Used to assign values to variables.</p>
 
