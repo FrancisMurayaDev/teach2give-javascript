@@ -49,25 +49,24 @@
 - Inline JavaScript
 <p>JavaScript code is embedded directly inside HTML elemets using even attributes such as onclick, onmouseover, e.t.c.</p>
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inline JavaScript</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline JavaScript</title>
 
-
-  <button onclick="
+    <button
+      onclick="
   console.log('Teach2Give is Fun');
   alert('Give Your best, you got this!');
-  ">Click Me</button>
-
-
-</head>
-<body>
-
-</body>
+  "
+    >
+      Click Me
+    </button>
+  </head>
+  <body></body>
 </html>
 ```
 
@@ -85,6 +84,15 @@
 
 ```
 <script src="main.js" async></script>
+```
+
+Comments in JS:
+
+```js
+//This is a line Comment
+
+/*This is a 
+Multiline Comment*/
 ```
 
 

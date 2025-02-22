@@ -76,3 +76,14 @@ let fisrtName = "Smith"
 let secondName = "Doe"
 let totalScore = 18;
 ```
+
+
+### Summary
+
+3 ways to Create a Variable:
+
+1. let
+2. const
+3. var
+
+We can save any type of value in a Variable.
