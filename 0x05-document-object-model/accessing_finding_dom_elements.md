@@ -17,10 +17,10 @@ const button = document.getElementById("my-button");
 console.log(button); // <button id="my-button">Click Me</button>
 ```
 
-#### document.getElementByTagName(name)
+#### document.getElementsByTagName(name)
 
 Targets elements that match a tag name.
-You can index the specific element as in indexing in array.
+You can index the specific element in the Node List (HTML Collection) as in indexing in array.
 
 ```js
 <p>Hello, World</p>
@@ -50,7 +50,9 @@ console.log(texts); // [p.text, p.text]
 
 #### document.querySelector(selector)
 
-selects element with a specific CSS selector.
+selects the first element with a specific CSS selector.
+ - You specify the selector the way you specify it in CSS.
+ For example: the ID and Class.
 
 ```js
 const firstText = document.querySelector(".text");
@@ -60,6 +62,7 @@ console.log(firstText);
 #### document.querySelectorAll(selector)
 
 Selects all elements in the document that match specified class, id or tag name and returns a node list of them.
+- It cannot be used with an ID since only one ID should correspond to one element. 
 
 ```js
 <p class="text">Hello, World</p>
@@ -79,7 +82,18 @@ title.id = "awesome-title";
 console.log(title); // <h1 class="title" id="awesome-title">Hello, world</h1>
 ```
 
-We can also use <em> element.setAttribute ("attribute", "value")</em>
+We can also select elements with a certain class. 
+For example:
+
+
+```js
+document.querySelectorAll('p.text')
+//This will select all paragraphs with the class of Text
+```
+
+If you have a different element with the same class, it will not be selected.
+
+We can also use <b> element.setAttribute ("attribute", "value")</b>
 
 ```js
 <h1 class="title" id="title">
