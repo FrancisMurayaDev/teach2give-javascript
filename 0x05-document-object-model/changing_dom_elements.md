@@ -51,7 +51,7 @@ console.log(div.innerText);
 #### textContent
 
 Sets or gets the text content of an element and its descendants without preserving the HTML tags.
-- does the same thing what `.innertext` does.
+- does the same thing what `.innerText` does.
 
 - More consistent across browser compared to <i>innerText </i>
 

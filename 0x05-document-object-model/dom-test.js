@@ -28,3 +28,11 @@ heading2.innerText = 'Programming is Fun';
 div.appendChild(heading2);
 console.log(div.innerText);
 
+const heading = document.querySelector('#heading');
+heading.id = 'title-class';
+console.log(heading);
+
+const button = document.querySelector('#btn');
+button.onclick = function () {
+  alert('I just got clicked!');
+}

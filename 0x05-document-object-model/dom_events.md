@@ -1,6 +1,6 @@
 ## DOM Events
 
-Event in DOM is action in browser, the browser can respond.
+Event in DOM is action or occurrence in browser, the browser can respond to.
 
 Events are a result of user interactions such as clicks, key presses or mouse movements.
 
@@ -8,7 +8,7 @@ Events are a result of user interactions such as clicks, key presses or mouse mo
 
 1. Onclick
 
-- triggered by element click.
+- triggered when an element is clicked.
 
 ```js
 const btn = document.getElementById("btn");
